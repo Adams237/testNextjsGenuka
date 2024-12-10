@@ -67,7 +67,7 @@ function Modal({addTask, closeModal }: Props) {
                                 Date
                             </label>
                             <input
-                                type="text"
+                                type="date"
                                 onChange={(e)=>handleChange(e)}
                                 name='date'
                                 className="mt-1 block w-full rounded-md px-2 bg-slate-500 border-gray-300 shadow-sm focus:ring-blue-500 focus:border-blue-500"

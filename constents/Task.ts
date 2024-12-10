@@ -4,7 +4,7 @@ export const Task=[
         titre:"Initialiser le projet",
         projet:"Utiliser react js",
         status:"Open",
-        date:"Aujourd'hui",
+        date:"2024-12-10",
         heureDebut:"11:00 PM",
         heureFin:"11:45 PM",
         membres:[
@@ -19,7 +19,7 @@ export const Task=[
         titre:"Initialiser le backend",
         projet:"Utiliser laravel",
         status:"Close",
-        date:"Aujourd'hui",
+        date:"2024-12-10",
         heureDebut:"11:00 PM",
         heureFin:"11:45 PM",
         membres:[
@@ -38,7 +38,7 @@ export const Task=[
         titre:"Initialiser le desing",
         projet:"Utiliser Canvas",
         status:"Open",
-        date:"Aujourd'hui",
+        date:"2024-12-10",
         heureDebut:"11:00 PM",
         heureFin:"11:45 PM",
         membres:[

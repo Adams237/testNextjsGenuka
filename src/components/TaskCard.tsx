@@ -7,6 +7,11 @@ class Props {
 }
 function TaskCard({ task, changeStatusTask }: Props) {
     // console.log(task)
+    const date = new Date()
+    const dateString = `${date.getFullYear()}/${date.getMonth()}/${date.getDate()}`
+    const date2 = new Date(task.date)
+    const date2String = `${date2.getFullYear()}/${date2.getMonth()}/${date2.getDate()}`
+    console.log(dateString === date2String)
     return (
 
         <div className="w-11/12 mx-auto mt-10 bg-white shadow-md rounded-lg p-4">
@@ -40,7 +45,7 @@ function TaskCard({ task, changeStatusTask }: Props) {
             {/* <!-- Informations supplémentaires --> */}
             <div className="flex items-center justify-between">
                 <div className="text-sm text-gray-500">
-                    <div>{task.date}</div>
+                    { dateString === date2String ? <div>Aujourd'hui</div>: <div>{task.date}</div>}
                     <div className="font-medium text-gray-800">{task.heureDebut} - {task.heureFin}</div>
                 </div>
                 <div className="flex -space-x-2">
